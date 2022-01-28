@@ -14,8 +14,8 @@ body {
 
 .clock {
   display: flex;
-  width: 350px;
-  height: 350px;
+  width: 720px;
+  height: 720px;
   justify-content: center;
   align-items: center;
   background: url(http://samuel-garcia.site/img/clock-sam.png);

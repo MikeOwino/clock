@@ -18,7 +18,7 @@ body {
   height: 720px;
   justify-content: center;
   align-items: center;
-  background: url(https://github.com/MikeOwino/clock/blob/main/clock.png);
+  background: url(https://raw.githubusercontent.com/MikeOwino/clock/main/clock.png);
   background-size: cover;
   border: 4px solid #191919;
   border-radius: 50%;

@@ -14,8 +14,8 @@ body {
 
 .clock {
   display: flex;
-  width: 720px;
-  height: 720px;
+  width: 350px;
+  height: 350px;
   justify-content: center;
   align-items: center;
   background: url(https://raw.githubusercontent.com/MikeOwino/clock/main/clock.png);

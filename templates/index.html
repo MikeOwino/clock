@@ -2,43 +2,20 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" type="image/png" href="https://mikeowino.com/img/emojis/technologist.png" hreflang="en-us">
-  <title>Real Time</title>
-  <link rel="stylesheet" href="./style.css">
-
+  <title>Strimiz</title>
+  <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Questrial'><link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="shortcut icon" href="https://res.cloudinary.com/weknow-creators/image/upload/v1646741025/nficon2016_vtrp5i_g2oels.png">
+<link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<html lang="">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <title>Javascript Clock </title>
-</head>
 
-<body>
 
-    <div class="clock">
+<video id="my-video" class="video-js" controls preload="auto" poster="https://res.cloudinary.com/weknow-creators/image/upload/c_scale,w_1280/v1647843623/wallhaven-83g6zy_i52wko.png" data-setup='' loop>
+<source src="https://nl27.seedr.cc/ff_get/1135334119/You.Are.Not.My.Mother.2021.1080p.WEBRip.x264-RARBG.mp4?st=TQdJoXJfXKQCawl5r5xZIQ&e=1648369414" type='video/mp4'>
+</video>
 
-        <div class="hour">
-            <div class="hr" id="hr"></div>
-        </div>
 
-        <div class="min">
-            <div class="mn" id="mn"></div>
-        </div>
-
-        <div class="sec">
-            <div class="sc" id="sc"></div>
-        </div>
-
-    </div>
-
-</body>
-</html>
-<!-- partial -->
-  <script  src="{{ url_for('static', filename='js/script.js') }}"></script>
-
+<script src='https://vjs.zencdn.net/5.4.6/video.js'></script>
 </body>
 </html>
